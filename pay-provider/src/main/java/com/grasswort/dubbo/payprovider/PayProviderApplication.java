@@ -8,8 +8,6 @@ public class PayProviderApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PayProviderApplication.class, args);
-//        com.alibaba.nacos.client.naming.utils.StringUtils
-//        com.alibaba.nacos.client.utils
     }
 
 }

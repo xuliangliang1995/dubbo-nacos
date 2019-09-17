@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="payapi" />
-        <module name="pay-client" />
         <module name="pay-provider" />
+        <module name="pay-client" />
+        <module name="payapi" />
       </profile>
     </annotationProcessing>
   </component>
