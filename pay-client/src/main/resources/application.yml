@@ -1,0 +1,15 @@
+dubbo:
+  application:
+    name: pay-client
+  scan:
+    base-packages: com.grasswort.picker.pay.controller
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: nacos://127.0.0.1:8848
+  consumer:
+    check: false
+
+server:
+  port: 10001

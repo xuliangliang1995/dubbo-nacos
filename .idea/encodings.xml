@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/pay-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pay-service-provider" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

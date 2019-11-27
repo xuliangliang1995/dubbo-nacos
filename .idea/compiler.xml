@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pay-provider" />
         <module name="pay-client" />
         <module name="payapi" />
+        <module name="pay-service-provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pay-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pay-client" options="-parameters" />
       <module name="pay-provider" options="-parameters" />
+      <module name="pay-service-provider" options="-parameters" />
     </option>
   </component>
 </project>

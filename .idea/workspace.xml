@@ -2,11 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73dc2c1f-a0be-4b8f-94db-48a9365a5f88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/dubbo/payclient/PayClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/dubbo/payclient/PayClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pay-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pay-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-api/src/main/java/com/grasswort/picker/pay/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-api/target/classes/com/grasswort/picker/pay/PayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-api/target/test-classes/com/grasswort/picker/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/picker/pay/PayClientBootStrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/picker/pay/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/src/test/java/com/grasswort/picker/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/target/classes/com/grasswort/picker/pay/PayClientBootStrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/target/classes/com/grasswort/picker/pay/controller/PayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-client/target/test-classes/com/grasswort/picker/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/com/grasswort/picker/pay/PayProviderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/java/com/grasswort/picker/pay/service/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/src/test/java/com/grasswort/picker/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/com/grasswort/picker/pay/PayProviderBootstrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/classes/com/grasswort/picker/pay/service/PayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service-provider/target/test-classes/com/grasswort/picker/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacosdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-client/pay-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/src/main/java/com/grasswort/dubbo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/src/main/java/com/grasswort/dubbo/IPayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/src/test/java/com/grasswort/dubbo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-api/src/test/java/com/grasswort/picker/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/target/classes/com/grasswort/dubbo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/target/classes/com/grasswort/dubbo/IPayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-api/target/test-classes/com/grasswort/dubbo/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/dubbo/payclient/PayClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/src/main/java/com/grasswort/dubbo/payclient/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-client/src/test/java/com/grasswort/dubbo/payclient/PayClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/src/main/java/com/grasswort/dubbo/payprovider/PayProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/src/main/java/com/grasswort/dubbo/payprovider/PayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-provider/src/test/java/com/grasswort/dubbo/payprovider/PayProviderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +89,21 @@
   <component name="ProjectId" id="1Qutd0Va8qorpsQKWauIqmzsx1X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PayClientApplication">
+  <component name="RunManager" selected="Spring Boot.PayProviderApplication">
     <configuration name="PayClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pay-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.grasswort.dubbo.payclient.PayClientApplication" />
@@ -69,10 +128,16 @@
     <configuration name="PayProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pay-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.grasswort.dubbo.payprovider.PayProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=127.0.0.1:8080" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PayClientApplication" />
+      <item itemvalue="Spring Boot.PayProviderApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +155,17 @@
       <workItem from="1568687798762" duration="6256000" />
       <workItem from="1568708278674" duration="794000" />
       <workItem from="1568710437783" duration="5636000" />
-      <workItem from="1568718577380" duration="25000" />
+      <workItem from="1568718577380" duration="682000" />
+      <workItem from="1568769193858" duration="16000" />
+      <workItem from="1568770342163" duration="882000" />
+      <workItem from="1568789147157" duration="3226000" />
+      <workItem from="1568792959577" duration="13000" />
+      <workItem from="1568793397270" duration="5655000" />
+      <workItem from="1568806587895" duration="615000" />
+      <workItem from="1568857584824" duration="604000" />
+      <workItem from="1574829214431" duration="2646000" />
+      <workItem from="1574833371767" duration="1951000" />
+      <workItem from="1574837917181" duration="1811000" />
     </task>
     <servers />
   </component>

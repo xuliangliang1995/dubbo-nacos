@@ -1,0 +1,25 @@
+nacos:
+  config:
+    bootstrap:
+      enable: true
+      log:
+        enable: false
+    server-addr: nacos://127.0.0.1:8848
+    namespace: 714709d9-ff45-4e48-873f-f468f3dd90ad
+    group: DEFAULT_GROUP
+    data-id: pay-service-provider.yml
+    type: yaml
+    max-retry: 10
+    auto-refresh: true
+    config-retry-time: 3000
+    config-long-poll-timeout: 46000
+    enable-remote-sync-config: false
+
+#dubbo:
+#  application:
+#    name: dubbo-nacos-pay-provider
+#  scan:
+#    base-packages: com.grasswort.picker
+#  registry:
+#    address: nacos://nacos.grasswort.com:8848
+#    check: false
